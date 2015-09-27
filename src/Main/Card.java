@@ -5,13 +5,8 @@ public class Card {
 	//Data Fields
 	private int rank;
 	private String suit;
-		//public static void main(String[] args){
-		
-		// Creates Card data fields
-		//String[] suit={"Spades","Hearts","Diamonds","Club"};
-		//String[] rank={"A","2","3","4","5","6","7","8","9","10","J","Q","K"};}
-	
-	// no arg constructor
+
+	// no argument constructor
 	public Card(){}
 	
 	// method for card using rank and suit
