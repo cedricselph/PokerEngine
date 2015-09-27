@@ -26,13 +26,24 @@ public class Deck extends Card{
 		
 		Collections.shuffle(Deck_List);}
 	
-	
+	public Card RemoveCard(){
+		Card myCard= getDeck_List().get(0);
+		Used_List.add(myCard);
+		getDeck_List().remove(0);
+		return myCard;
+		}
 
-	 
+	public ArrayList<Card> getDeck_List() {
+		return Deck_List;
+	}
 
+	public ArrayList<Card> getUsed_List() {
+		return Used_List;
+	}
 
-
-
+	public int DeckSize(){
+		return getDeck_List().size();
+	}
 
 }
 		
