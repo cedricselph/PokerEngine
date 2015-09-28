@@ -8,7 +8,7 @@ public class Play extends Deck{
 		Scanner input= new Scanner(System.in);
 		String Continue_Playing= "y";
 	
-	while(Continue_Playing=="y"){
+	while(Continue_Playing.equals("y")){
 		
 		
 		
